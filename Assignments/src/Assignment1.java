@@ -22,6 +22,7 @@ public class Assignment1 {
      */
 
     public static void main(String[] args) {
+        int age1= 50;
 
     }
 }
