@@ -15,6 +15,10 @@ public class Assignment1 {
      * <p>
      * 3. Create an array with the following values "1,4,6,7,56,34,23"
      * 4. Create a method greaterThan20 which prints all numbers in the array that are greater than 20.
+     * *  5. Let ageGroup2(age1,age2) return a string
+     *      *  6. get the value returned from ageGroup and add your name to it;
+     *      *
+     *      *  7. Create a method greaterThan20 which returns all numbers in the array that are greater than 20.
      * <p>
      * HAPPY CODING!!
      * <p>
@@ -29,6 +33,13 @@ public class Assignment1 {
         //  age2= 80;
         ageGroup(age1, age2);
         greaterThan20();
+        String ageGroupResult= ageGroup2(age1,age2);
+
+    }
+
+    private static String ageGroup2(int age1, int age2) {
+        return ageGroup2(int age1,int age2,"Ade");
+
     }
 
     static void ageGroup(int age1, int age2) {
