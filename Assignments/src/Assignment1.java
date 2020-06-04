@@ -26,21 +26,28 @@ public class Assignment1 {
      */
 
     public static void main(String[] args) {
-        int age1 = 50;
-        int age2 = 50;
+        String age1 = "50";
+        String age2 = "50";
         // ageGroup(age1,age2);
         //    age1= 70;
         //  age2= 80;
-        ageGroup(age1, age2);
-        greaterThan20();
+       // ageGroup(age1, age2);
+       // greaterThan20();
         String ageGroupResult= ageGroup2(age1,age2);
 
+        String ageGroupResult1 = ageGroup2("Ben", "Ade");
+        System.out.println(ageGroupResult);
+        System.out.println(ageGroupResult1);
     }
 
-    private static String ageGroup2(int age1, int age2) {
-        return ageGroup2(int age1,int age2,"Ade");
-
+    private static String ageGroup2(String ben, String ade) {
+        return a + b;
     }
+
+    //  private static String ageGroup2(String a, String b) {
+   //     return a + b;
+
+  //  }
 
     static void ageGroup(int age1, int age2) {
         if (age1 < 50) ;
