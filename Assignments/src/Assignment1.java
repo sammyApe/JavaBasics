@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 public class Assignment1 {
 
     /**
@@ -33,17 +31,31 @@ public class Assignment1 {
         //  age2= 80;
        // ageGroup(age1, age2);
        // greaterThan20();
-        String ageGroupResult= ageGroup2(age1,age2);
-
+     //   String ageGroupResult= ageGroup2(age1,age2);
         String ageGroupResult1 = ageGroup2("Ben", "Ade");
-        System.out.println(ageGroupResult);
+     //   System.out.println(ageGroupResult);
         System.out.println(ageGroupResult1);
+         int[] originalArray = {1,4,6,7,56,34,23};
+         String name = new String("Osho");
+         String name2 = "Osho";
+
+        int[] greaterThan20 = numbersGreaterThan20(originalArray);
+    }
+
+    private static int[] numbersGreaterThan20(int[] originalArray) {
+        int [] greaterThan20 = new int[7];
+        for (int i = 0; i < originalArray.length; i++){
+          if (originalArray[i] >20) {
+              greaterThan20[i] = originalArray[i];
+          }
+        }
+        return greaterThan20;
     }
 
     private static String ageGroup2(String ben, String ade) {
-        return a + b;
-    }
+        return "Ben" + "Ade";
 
+    }
     //  private static String ageGroup2(String a, String b) {
    //     return a + b;
 
@@ -64,7 +76,7 @@ public class Assignment1 {
 
     }
 
-    public static void greaterThan20() {
+    public static int greaterThan20() {
 
         int[] numbers = {1, 4, 6, 7, 56, 34, 23};
         for (int i = 0; i < numbers.length; i++) {
@@ -73,6 +85,7 @@ public class Assignment1 {
 
             }
         }
+        return 0;
     }
 }
 
